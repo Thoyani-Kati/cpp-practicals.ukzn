@@ -5,7 +5,7 @@
 
 namespace prc{
 
-    void  getDifference(int n1,int n2){
+    void  getDifference(int n1,int n2, int n3){
         std:: cout << "Difference of "<< n1 << " and " << n2 << " is "<< std::abs(n1-n2)<<  "\n";
     }
 

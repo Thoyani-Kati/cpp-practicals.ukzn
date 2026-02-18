@@ -3,7 +3,7 @@
 #include "Question3.hpp"
 
 
-namespace prc{ 
+namespace prc{
 
 
 void locatePoint(const Point& point,double r){
