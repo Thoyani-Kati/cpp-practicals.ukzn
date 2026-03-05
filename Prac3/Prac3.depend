@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1772696405 source:c:\users\administrator\katwork\c++\projects\practicals\prac3\src\question1.cpp
+	"Question1.h"
+
+1772734456 c:\users\administrator\katwork\c++\projects\practicals\prac3\include\question1.h
+
+1772731753 source:c:\users\administrator\katwork\c++\projects\practicals\prac3\main.cpp
+	<iostream>
+	"Question1.h"
+

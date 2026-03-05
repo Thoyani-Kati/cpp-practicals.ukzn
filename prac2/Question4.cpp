@@ -1,9 +1,12 @@
 #include"Question4.h"
+#include<algorithm>
 
 class Roman{
-    std::vector<char> romans{};
+    
+    std::vector<char> romans = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
+    std::vector<int> values = {1, 5, 10, 50, 100, 500, 1000};
     int value_of_char(char ch){
-    //return romans.indexOf();
+    return values[std::find(romans.begin(),romans.end(),ch) - romans.begin()];
 }
 
 int roman_to_decimal(std::string str){
