@@ -1,16 +1,25 @@
 #ifndef QUESTION2_H
 #define QUESTION2_H
 
-
-class Question2
+template<typename T>
+class MyQueue
 {
+    typedef unsigned int uint;
+    T* elem;
+    uint size_elem, capacity,head,tail;
+
+
     public:
-        Question2();
-        virtual ~Question2();
+        MyQueue(size_t sz);
+        virtual ~MyQueue();
 
-    protected:
+        T deque_();
+        void add(T& data);
+        T last(T& data);
+        T first(T& data);
 
-    private:
+
+
 };
 
 #endif // QUESTION2_H

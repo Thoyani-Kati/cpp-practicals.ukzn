@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1772696405 source:c:\users\administrator\katwork\c++\projects\practicals\prac3\src\question1.cpp
+1772735942 source:c:\users\administrator\katwork\c++\projects\practicals\prac3\src\question1.cpp
 	"Question1.h"
+	<cmath>
 
 1772734456 c:\users\administrator\katwork\c++\projects\practicals\prac3\include\question1.h
 

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1773181487 source:c:\users\administrator\katwork\c++\projects\prac4\main.cpp
+	<iostream>
+	"Question1.h"
+	"Battery.h"
+
+1773185096 source:c:\users\administrator\katwork\c++\projects\prac4\src\battery.cpp
+	"Battery.h"
+
+1773185067 c:\users\administrator\katwork\c++\projects\prac4\include\battery.h
+
+1773179787 source:c:\users\administrator\katwork\c++\projects\prac4\src\question1.cpp
+	"Question1.h"
+	<iostream>
+
+1773169275 c:\users\administrator\katwork\c++\projects\prac4\include\question1.h
+	<vector>
+	<string>
+

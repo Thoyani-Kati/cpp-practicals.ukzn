@@ -1,11 +1,12 @@
-#include "Question3.h"
+#include <iostream>
+using namespace std;
 
-Question3::Question3()
-{
-    //ctor
-}
+void comparePointers() {
+    int* p = nullptr;
+    double* q = nullptr;
 
-Question3::~Question3()
-{
-    //dtor
+    cout << "p = " << (unsigned long)p << endl;
+    cout << "p+1 = " << (unsigned long)(p+1) << endl;
+    cout << "q = " << (unsigned long)q << endl;
+    cout << "q+1 = " << (unsigned long)(q+1) << endl;
 }
